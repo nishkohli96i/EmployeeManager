@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appyblues.nishant.employeemanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeScreen"
+            android:label="@string/title_activity_welcome_screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.mainactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".emplogin"
+            android:label="emplogin">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.emplogin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.about" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".hrlogin">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.hrlogin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".hrpage">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.hrpage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".emppage">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.emppage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".editprofile">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.editprofile" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".projects">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.editprofile" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".addemp">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.addemp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".addproject">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.addproject" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".empshow">
+            <intent-filter>
+                <action android:name="com.appyblues.nishant.employeemanager.empshow" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="#7ad3e1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Edit Employee Details"
+            android:id="@+id/textView15"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText11"
+            android:minWidth="100dp"
+            android:maxWidth="130dp"
+            android:paddingEnd="10dp"
+            android:layout_below="@+id/textView15"
+            android:layout_alignStart="@+id/textView15"
+            android:layout_marginTop="39dp"
+            android:hint="Username" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:id="@+id/button16"
+            android:layout_marginBottom="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:minWidth="100dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText12"
+            android:paddingEnd="20dp"
+            android:hint="Address"
+            android:layout_below="@+id/editText13"
+            android:layout_alignStart="@+id/editText13"
+            android:layout_marginTop="33dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/editText13"
+            android:paddingEnd="20dp"
+            android:hint="Name"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/editText11" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText14"
+            android:paddingEnd="20dp"
+            android:layout_marginTop="33dp"
+            android:layout_below="@+id/editText12"
+            android:layout_alignStart="@+id/editText12"
+            android:hint="Contact Number" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            android:id="@+id/button10"
+            android:layout_below="@+id/editText11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:minWidth="100dp" />
+
+    </RelativeLayout>
+</LinearLayout>
