@@ -6,7 +6,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center_vertical">
+        android:layout_gravity="center_vertical"
+        android:background="#1bbdea">
 
         <TextView
             android:layout_width="wrap_content"
@@ -14,19 +15,17 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Projects at a glance"
             android:id="@+id/textView37"
+            android:layout_marginTop="43dp"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="57dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="qw"
-            android:id="@+id/textView38"
-            android:layout_marginTop="62dp"
-            android:layout_below="@+id/textView37"
             android:layout_centerHorizontal="true" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:id="@+id/listView2"
+            android:layout_marginTop="46dp"
+            android:layout_below="@+id/textView37"
+            android:layout_alignParentStart="true" />
 
     </RelativeLayout>
 </LinearLayout>

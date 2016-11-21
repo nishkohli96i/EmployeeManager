@@ -19,9 +19,9 @@
         android:minWidth="150dp"
         android:maxWidth="150dp"
         android:hint="Project Name"
+        android:layout_marginTop="32dp"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="52dp" />
+        android:layout_alignStart="@+id/autoCompleteTextView2" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -49,10 +49,9 @@
         android:text="Back"
         android:id="@+id/button27"
         android:minWidth="120dp"
-        android:layout_marginTop="73dp"
+        android:layout_marginTop="39dp"
         android:layout_below="@+id/autoCompleteTextView2"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="39dp" />
+        android:layout_alignEnd="@+id/editText23" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -60,7 +59,6 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="New Project"
         android:id="@+id/textView2"
-        android:layout_marginTop="46dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -68,11 +66,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/autoCompleteTextView2"
-        android:layout_marginTop="48dp"
-        android:layout_below="@+id/editText23"
-        android:layout_alignEnd="@+id/editText23"
-        android:layout_alignStart="@+id/editText23"
-        android:hint="Add Employees" />
+        android:layout_marginTop="38dp"
+        android:hint="Add Employees"
+        android:layout_below="@+id/button18"
+        android:layout_centerHorizontal="true"
+        android:minWidth="200dp"
+        android:maxWidth="200dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -80,7 +79,17 @@
         android:text="Done"
         android:id="@+id/button24"
         android:minWidth="120dp"
-        android:layout_alignTop="@+id/button27"
+        android:layout_alignBaseline="@+id/button27"
+        android:layout_alignBottom="@+id/button27"
         android:layout_toStartOf="@+id/button26" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE THE PROJECT"
+        android:id="@+id/button18"
+        android:layout_below="@+id/editText23"
+        android:layout_alignStart="@+id/editText23"
+        android:layout_marginTop="35dp" />
 
 </RelativeLayout>
