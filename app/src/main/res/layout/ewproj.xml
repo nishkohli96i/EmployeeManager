@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="New Project"
+            android:id="@+id/textView21"
+            android:layout_marginTop="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Name :"
+            android:id="@+id/textView22"
+            android:layout_marginTop="48dp"
+            android:layout_below="@+id/textView21"
+            android:layout_alignStart="@+id/textView23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Description :"
+            android:id="@+id/textView23"
+            android:layout_below="@+id/textView22"
+            android:layout_toStartOf="@+id/textView21"
+            android:layout_marginTop="37dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Participants :"
+            android:id="@+id/textView24"
+            android:layout_below="@+id/textView23"
+            android:layout_alignStart="@+id/textView23"
+            android:layout_marginTop="88dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:id="@+id/button17"
+            android:layout_marginBottom="67dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/textView22" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/button18"
+            android:layout_alignTop="@+id/button17"
+            android:layout_toEndOf="@+id/button17"
+            android:layout_marginStart="33dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText15"
+            android:layout_above="@+id/textView23"
+            android:layout_toEndOf="@+id/button17"
+            android:maxWidth="160dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText16"
+            android:layout_above="@+id/textView24"
+            android:layout_alignStart="@+id/editText15"
+            android:minWidth="160dp" />
+
+        <AutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/autoCompleteTextView"
+            android:layout_alignBottom="@+id/textView24"
+            android:layout_alignStart="@+id/editText16"
+            android:layout_alignEnd="@+id/editText16" />
+    </RelativeLayout>
+</LinearLayout>
